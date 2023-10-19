@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Піцерія</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Ласкаво просимо до піцерії "JavaScript Pizza"</h1>
+    <p>Оберіть свою улюблену піцу:</p>
+
+    <div class="pizza-item" id="pizza1">
+        <h2>Піца Маргарита</h2>
+        <p>Смачний томатний соус, моцарелла, базилік.</p>
+        <button class="order-button">Замовити</button>
+    </div>
+
+    <div class="pizza-item" id="pizza2">
+        <h2>Піца Пепероні</h2>
+        <p>Гострий пепероні, томатний соус, моцарелла.</p>
+        <button class="order-button">Замовити</button>
+    </div>
+
+    <div class="pizza-item" id="pizza3">
+        <h2>Піца Гавайська</h2>
+        <p>Шинка, ананаси, томатний соус, моцарелла.</p>
+        <button class="order-button">Замовити</button>
+    </div>
+
+    <div id="cart">
+        <h2>Кошик</h2>
+        <ul id="cart-items"></ul>
+        <p id="total-price">Загальна вартість: $0</p>
+        <p id="order-count">Піц в кошику: 0</p>
+        <button id="confirm-order-button">Підтвердити замовлення</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
